@@ -3,6 +3,14 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-family: "Kay Pho Du", serif;
+}
+
 img {
   max-width: 100px;
+}
+
+p {
+  font-family: "Kay Pho Du", serif;
 }
