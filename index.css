@@ -27,17 +27,18 @@ p {
 .informations a {
   color: black;
 }
-.email-link a {
+.email-link {
   color: rgb(81, 60, 187);
 }
-.email-link a:hover {
+.email-link:hover {
   color: rgb(16, 16, 16);
-  font-size: 20px;
+  font-size: 18px;
   transition: all 200ms ease-in-out;
 }
 
 footer {
   font-size: 20px;
+  margin: 40px;
 }
 
 footer .social-links i {
@@ -71,14 +72,9 @@ footer .social-links a:hover {
 }
 .btn-branding a:hover {
   color: rgb(237, 237, 248);
-  background: #090909;
   transition: all 200ms ease-in-out;
   border-radius: 5px;
   font-size: 17px;
-}
-
-.my-rob {
-  box-shadow: 0 0 0 2em #f4aab9, 0 0 0 4em #f4f6f7;
 }
 
 .webpage a {
@@ -98,4 +94,14 @@ footer a:hover {
   transition: all 200ms ease-in-out;
   font-size: 17px;
   background: #efe5e7;
+}
+
+.webpage:before {
+  width: 100%;
+  height: 5px;
+  display: block;
+  content: "";
+  border-radius: 100px;
+  background: #f3eced;
+  margin-bottom: 15px;
 }
