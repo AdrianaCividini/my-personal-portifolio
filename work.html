@@ -14,6 +14,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta
+      name="description"
+      content="Adriana is a front-end developer based in Malta.
+    She likes to Code React and JavaScript."
+    />
+    <title>🧚‍♂️Adriana's Portifolio</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Kay+Pho+Du:wght@400;700&display=swap"
       rel="stylesheet"
@@ -24,19 +30,22 @@
       src="https://kit.fontawesome.com/262a64d503.js"
       crossorigin="anonymous"
     ></script>
-
-    <title>🧚‍♂️Adriana's Portifolio</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bd-navbar stick-top bg-body mb-5">
+    <nav class="navbar navbar-expand-lg bg-white mb-5">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html">👩‍💻</a>
+        <a class="navbar-brand" title="Work page" href="/">👩‍💻</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
@@ -45,23 +54,37 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/index.html"
+              <a
+                class="nav-link"
+                title="Homepage"
+                aria-current="page"
+                href="/index.html"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">About</a>
+              <a class="nav-link" title="About Adriana" href="/about.html"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/work.html">Projects</a>
+              <a
+                class="nav-link active"
+                title="Adriana's Work"
+                href="/work.html"
+                >Work</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact</a>
+              <a class="nav-link" title="Contact Adriana" href="/contact.html"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
     <h3>⌨️Here are some of the projects that I Coded, take a look, please.</h3>
     <br />
     <div class="projects-container container d-flex">
@@ -70,8 +93,12 @@
           <p>
             This Travel Website was coding using animation and JavaScript. It
             has a dark theme button
-            <a href="https://rainbow-sable-59c69c.netlify.app/" target="_blank"
-              >Travel Webpage.</a
+            <a
+              href="https://rainbow-sable-59c69c.netlify.app/"
+              title="Travel Webpage"
+              target="_blank"
+              ><br />
+              Travel Webpage.</a
             >
           </p>
 
@@ -79,8 +106,9 @@
             A Simple Croissant Website
             <a
               href="https://thunderous-chaja-5801dc.netlify.app/contact"
+              title="Croissant Webpage"
               target="_blank"
-              >Croassant Page.</a
+              >Croissant Page.</a
             >
           </p>
 
@@ -88,8 +116,10 @@
             Simple Weather App using JavaScript
             <a
               href="https://resplendent-salamander-942e29.netlify.app/"
+              title="Weather App"
               target="_blank"
             >
+              <br />
               Weather App.
             </a>
           </p>
@@ -100,6 +130,7 @@
             Coded a portifolio using Figma
             <a
               href="https://prismatic-zuccutto-970378.netlify.app"
+              title="Fake Portifolio"
               target="_blank"
               >Fake Portifolio.</a
             >
@@ -110,6 +141,7 @@
             API
             <a
               href="https://incandescent-bienenstitch-d1f35c.netlify.app"
+              title="Weather App"
               target="_blank"
               >Weather App.</a
             >
@@ -124,22 +156,28 @@
       <div class="social-links mt-5">
         <a
           href="https://www.linkedin.com/in/adriana-cividini-949076225/"
+          title="Adriana Linkedin"
           target="_blanket"
           ><i class="fa-brands fa-linkedin-in fa-xs"></i
         ></a>
-        <a href="https://github.com/AdrianaCividini" target="_blanket"
+        <a
+          href="https://github.com/AdrianaCividini"
+          title="Adriana GitHub"
+          target="_blanket"
           ><i class="fa-brands fa-github fa-xs"></i
         ></a>
       </div>
     </footer>
 
-    <div class="email-link mb-5">
+    <div class="email-link mb-5" title="Email Adriana">
       <i class="fa-regular fa-envelope fa-fade fa-xs"></i>
       dry.cividini@gmail.com
     </div>
 
     <button class="btn btn-branding">
-      <a href="mailto:dry.cividini@gmail.com">Contact me</a>
+      <a href="mailto:dry.cividini@gmail.com" title="Contact Adriana"
+        >Contact me</a
+      >
     </button>
     <br />
     <br />
@@ -152,6 +190,7 @@
         🤲This website was coded by <strong>Adriana Cividini</strong>, and is
         <a
           href="https://github.com/AdrianaCividini/my-personal-portifolio"
+          title="Open GitHub"
           target="_blank"
           >open-sourced.</a
         >
