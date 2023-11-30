@@ -25,6 +25,14 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+      role="navigation"
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -39,18 +47,24 @@
       src="https://kit.fontawesome.com/262a64d503.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>🧚‍♂️Adriana's Portifolio</title>
   </head>
+
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white mb-5">
+    <nav
+      role="navigation"
+      id="navigation"
+      class="navbar navbar-expand-lg navbar-light bg-light mb-5"
+    >
       <div class="container-fluid">
         <a class="navbar-brand" title="Homepage" href="/">👩‍💻</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
@@ -60,7 +74,7 @@
           <ul class="navbar-nav">
             <li class="nav-item">
               <a
-                class="nav-link"
+                class="nav-link active"
                 title="Homepage"
                 aria-current="page"
                 href="/index.html"
@@ -88,7 +102,7 @@
     </nav>
 
     <h3>🤝Hello, I'm</h3>
-    <h1>Adriana Cividini</h1>
+    <h1 class="head" id="head">Adriana Cividini</h1>
     <img
       src="/image/adriana.jpeg"
       class="fluid rounded shadow-sm p-1 mb-4"
@@ -98,7 +112,7 @@
     <h3><a href="/index.html">👩‍💻</a> Front-end developer based in Malta.</h3>
 
     <p class="informations">
-      My knowledge: React.js, Bootstrap, Responsive development, SEO, Figma.
+      My knowledge: React.js, Bootstrap, Responsive development, SEO, Figma, AI.
       <br />
       Tools that I use, VS Code,
       <a
@@ -154,5 +168,6 @@
         >
       </p>
     </div>
+    <script src="/index.js"></script>
   </body>
 </html>

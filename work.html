@@ -42,15 +42,19 @@
     <title>🧚‍♂️Adriana's Portifolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white mb-5">
+    <nav
+      role="navigation"
+      id="navigation"
+      class="navbar navbar-expand-lg navbar-light bg-light mb-5"
+    >
       <div class="container-fluid">
         <a class="navbar-brand" title="Homepage" href="/">👩‍💻</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
@@ -73,7 +77,10 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" title="Adriana's Work" href="/work.html"
+              <a
+                class="nav-link active"
+                title="Adriana's Work"
+                href="/work.html"
                 >Work</a
               >
             </li>
@@ -147,6 +154,17 @@
               target="_blank"
               >Weather App.</a
             >
+          </p>
+
+          <p>
+            I built an AI project
+            <a
+              href="https://ai-travel-generator.netlify.app"
+              title="Sport Country destination"
+              target="_blank"
+            >
+              Travel Sport
+            </a>
           </p>
         </div>
       </div>
