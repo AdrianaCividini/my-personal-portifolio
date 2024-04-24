@@ -1,97 +1,185 @@
-body {
-  background: rgb(250, 216, 244);
-  text-align: center;
+:root {
+  --secondary-color: #f9f7f3;
+  --default-font-family: "Kay Pho Du", serif;
 }
+
+body {
+  background: rgb(245, 232, 243);
+  text-align: center;
+  font-family: var(--default-font-family);
+}
+
 .nav-link {
   color: rgb(81, 60, 187);
+  font-size: 20px;
 }
 .nav-item {
   padding: 0 15px;
+  line-height: 14px;
+}
+
+.adriana-presentation,
+.about-section,
+.contact-container,
+.projects-container {
+  background-color: var(--secondary-color);
+  padding: 100px 80px;
+  margin-top: 50px;
+}
+
+.adriana-presentation h3 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 2;
+  color: rgb(73, 64, 64);
 }
 
 h1 {
-  font-family: "Kay Pho Du", serif;
-  font-size: 35px;
+  font-size: 93px;
   font-weight: bold;
-}
-h3 {
-  font-family: "Kay Pho Du", serif;
-  font-size: 25px;
-  font-weight: bold;
-}
-img {
-  max-width: 150px;
-}
-
-p {
-  font-family: "Kay Pho Du", serif;
-  font-size: 20px;
-}
-.informations a {
-  color: rgb(81, 60, 187);
-}
-.email-link {
-  color: rgb(81, 60, 187);
-}
-.email-link:hover {
-  color: rgb(16, 16, 16);
-  font-size: 18px;
-  transition: all 200ms ease-in-out;
-}
-
-footer {
-  font-size: 20px;
-  margin: 40px;
-}
-
-footer .social-links i {
-  color: rgb(81, 60, 187);
-  margin: 60px;
-}
-
-footer .social-links a {
-  background-color: rgb(234, 197, 230);
-  font-size: 24px;
-  margin: 30px;
-  padding: 8px 8px;
-  border-radius: 50%;
-  transition: all 200ms ease-in-out;
-}
-
-footer .social-links a:hover {
-  color: white;
-  background: black;
-}
-footer a:hover {
-  color: black;
-  transition: all 200ms ease-in-out;
-  font-size: 17px;
-  background: #efe5e7;
-}
-.resume-contact {
-  justify-content: space-evenly;
-}
-.resume-contact i {
-  color: rgb(81, 60, 187);
 }
 
 .btn-branding {
   box-shadow: inset 0 -3em 3em rgb(81, 60, 187), 0 0 0 2px white,
     0.3em 0.3em 1em rgba(214, 190, 217, 0.236);
   cursor: pointer;
-  margin-bottom: 25px;
-  margin: auto;
+  font-size: 18px;
+  padding: 15px 30px;
+  line-height: 27px;
 }
+
 .btn-branding a {
   color: #f4f6f7;
   text-decoration: none;
 }
 .btn-branding a:hover {
   transition: all 200ms ease-in-out;
-  font-size: 17px;
+  font-size: 37px;
+}
+
+.button-index {
+  margin: 40px;
+}
+
+.button-contact {
+  padding: 80px;
+}
+.button-about {
+  display: flex;
+  position: relative;
+  top: 12%;
+  left: 27%;
+}
+
+.button-work {
+  padding: 50px;
+  margin-bottom: 30px;
+}
+
+.informations p {
+  font-size: 20px;
+  margin: 10px 10px;
 }
 .webpage p {
-  font-size: 15px;
+  font-size: 18px;
+}
+.webpage strong {
+  font-size: 20px;
+}
+footer {
+  margin: 90px 0;
+}
+
+footer .social-links a {
+  background-color: rgb(234, 197, 230);
+  font-size: 60px;
+  margin: 120px;
+  padding: 10px 10px;
+  border-radius: 50%;
+  transition: all 200ms ease-in-out;
+}
+
+footer .social-links i {
+  color: rgb(81, 60, 187);
+  margin: 40px;
+  font-size: 40px;
+}
+footer .social-links a:hover {
+  color: white;
+  background: black;
+}
+footer .email-link {
+  margin: 90px;
+}
+footer .email-link a {
+  color: rgb(81, 60, 187);
+  font-size: 25px;
+  margin: 120px;
+  text-decoration: none;
+}
+
+footer .email-link i {
+  color: rgb(81, 60, 187);
+  font-size: 25px;
+}
+footer .email-link:hover {
+  color: rgb(16, 16, 16);
+  font-size: 60px;
+  transition: all 200ms ease-in-out;
+}
+
+footer .email-link a:hover {
+  color: black;
+  transition: all 200ms ease-in-out;
+  font-size: 27px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 2;
+  color: rgb(73, 64, 64);
+}
+
+.col-6 p {
+  font-size: 16px;
+  line-height: 2;
+}
+
+img {
+  width: 400px;
+  border-radius: 5px;
+}
+.projects-container {
+  padding: 50px;
+}
+.projects h3 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 2;
+  color: rgb(73, 64, 64);
+  margin-top: 0;
+}
+
+.projects h4 {
+  font-size: 18px;
+  text-align: center;
+  line-height: 4;
+}
+.contact-container {
+  margin-bottom: 50px;
+}
+.container p {
+  font-size: 20px;
+}
+.my-rob p {
+  font-size: 18px;
+  margin: 60px;
 }
 .webpage a {
   color: rgb(81, 60, 187);
@@ -102,18 +190,13 @@ footer a:hover {
   background: #f4f6f7;
   border-radius: 5px;
 }
-.webpage:before {
-  width: 100%;
-  height: 5px;
-  display: block;
-  content: "";
-  border-radius: 100px;
-  background: #f3eced;
-  margin-bottom: 15px;
+
+.webpage a {
+  color: rgb(81, 60, 187);
 }
 
-p a {
-  color: rgb(81, 60, 187);
+.webpage p {
+  background-color: var(--secondary-color);
 }
 
 @media (max-width: 600px) {
