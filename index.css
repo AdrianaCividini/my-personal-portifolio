@@ -114,14 +114,10 @@ footer .email-link {
 footer .email-link a {
   color: rgb(81, 60, 187);
   font-size: 25px;
-  margin: 120px;
   text-decoration: none;
+  margin: 40px;
 }
 
-footer .email-link i {
-  color: rgb(81, 60, 187);
-  font-size: 25px;
-}
 footer .email-link:hover {
   color: rgb(16, 16, 16);
   font-size: 60px;
@@ -139,7 +135,7 @@ footer .email-link a:hover {
   line-height: 80px;
 }
 
-h3 {
+h2 {
   font-size: 26px;
   font-weight: bold;
   line-height: 2;
@@ -166,13 +162,13 @@ img {
   margin-top: 0;
 }
 
-.projects h4 {
+.projects h3 {
   font-size: 18px;
   text-align: center;
   line-height: 4;
 }
 .contact-container {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .container p {
   font-size: 20px;
@@ -199,8 +195,33 @@ img {
   background-color: var(--secondary-color);
 }
 
-@media (max-width: 600px) {
-  .col-6 {
-    width: 100%;
+@media (max-width: 900px) {
+  h1 {
+    font-size: 46px;
+  }
+  .about-section h1 {
+    font-size: 46px;
+  }
+  img {
+    width: 60%;
+  }
+
+  footer .social-links a {
+    font-size: 25px;
+  }
+  footer .social-links i {
+    font-size: 25px;
+  }
+
+  footer .email-link {
+    margin: 0;
+  }
+  footer .email-link a {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  footer .email-link i {
+    display: none;
   }
 }
