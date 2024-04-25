@@ -196,14 +196,24 @@ img {
 }
 
 @media (max-width: 900px) {
+  .adriana-presentation,
+  .about-section,
+  .contact-container,
+  .projects-container {
+    padding: 30px 10px;
+  }
+  img {
+    width: 40%;
+    margin-top: 10px;
+  }
   h1 {
     font-size: 46px;
   }
   .about-section h1 {
     font-size: 46px;
   }
-  img {
-    width: 60%;
+  .about-section img {
+    display: none;
   }
 
   footer .social-links a {
