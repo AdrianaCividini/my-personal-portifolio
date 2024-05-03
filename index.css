@@ -65,10 +65,7 @@ h1 {
   padding: 80px;
 }
 .button-about {
-  display: flex;
-  position: relative;
-  top: 12%;
-  left: 27%;
+  margin-top: 12%;
 }
 
 .button-work {
@@ -215,7 +212,9 @@ img {
   .about-section img {
     display: none;
   }
-
+  .about-section p {
+    text-align: center;
+  }
   footer .social-links a {
     font-size: 25px;
   }
